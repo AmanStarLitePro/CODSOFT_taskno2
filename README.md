@@ -3,4 +3,6 @@ In today's digital age, credit card fraud has become a significant concern for b
 
 # Download The Dataset Used in this Project
 
+Add this dataset to this folder when download git hub clone of this project
+
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
