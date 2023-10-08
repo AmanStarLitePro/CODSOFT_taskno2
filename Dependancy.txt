@@ -1,0 +1,23 @@
+Libraries used in this project
+
+Using pandas from sklearn Library
+Using TfidVectorizer from sklearn feature Extraction Library
+Using hstack from scipy.sparse
+Using Logistic Regression from sklearn Library as a ML model in this project
+Using accuracy_score from sklearn.metrics Library
+
+Data Used in this project is from kraggle.com
+
+Step-1 Loading Data from fraudTest.csv and fraudTrain.csv in pandas DataFrame, Since Data is in not in the form of csv 	UTF-8 Format so we convert it into ISO-8859-1 format
+
+Step-2 Analyzing the train data
+
+Step-3 Since Some of the data is in the textual form (trans_date_trans_time,merchant,category,first,last,gender,street,city,state,job,dob,unix_time) , we select some of the data that is totally a number (cc_num,amt,zip,lat,long,city_pop,trans_num,merch_lat,merch_long)
+
+Step-4 Convert Y_train and Y_test values as integers as datatype of the Y value is in object form as declared in shape
+
+Step-5 Training the Logistic Regression Model with the training data
+
+Step-6 Prediction on training data and Finding Accuracy Score on Training_data and Testing_data
+
+Step-7 Using Custom Inputs to check whether the model work smoothly or not
